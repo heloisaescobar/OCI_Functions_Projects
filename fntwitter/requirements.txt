@@ -1,0 +1,5 @@
+fdk>=0.1.41
+oci
+requests
+configparser
+pandas
