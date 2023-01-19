@@ -14,7 +14,7 @@ import oci.object_storage
 
 config = configparser.ConfigParser()
 config.read('config.ini')
-os.environ['BEARER_TOKEN'] = 'AAAAAAAAAAAAAAAAAAAAAKDMVQEAAAAAs7pAZSa75z2yBAaQtxUo7jdEYuY%3DPUTbBsqynf8tj7KIMbZVW8S6bxVWE4DC80oUlaMA0xHzNS1bQs'
+os.environ['BEARER_TOKEN'] = '<TOKEN>'
 
 def auth():
     return os.environ.get("BEARER_TOKEN")
